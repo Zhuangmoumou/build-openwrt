@@ -24,6 +24,9 @@ echo "DISTRIB_SOURCECODE='lede'" >>package/base-files/files/etc/openwrt_release
 # Replace the default software source
 # sed -i 's#openwrt.proxy.ustclug.org#mirrors.bfsu.edu.cn\\/openwrt#' package/lean/default-settings/files/zzz-default-settings
 #
+
+#Add a feed source
+echo 'src-git jerryk https://github.com/jerrykuku/openwrt-package' >>feeds.conf.default
 # ------------------------------- Main source ends -------------------------------
 
 # ------------------------------- Other started -------------------------------
