@@ -1,4 +1,4 @@
-#!/bin/bash
+ggg#!/bin/bash
 #========================================================================================================================
 # https://github.com/ophub/amlogic-s9xxx-openwrt
 # Description: Automatically Build OpenWrt for Amlogic s9xxx tv box
