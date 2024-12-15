@@ -131,7 +131,7 @@ jobs:
         run: |
           cd openwrt/
           echo -e "$(nproc) thread compile"
-          make -j$(($(nproc) + 1)) V=1 || make -j4 || make -j4 V=1
+          make -j$(($(nproc) + 1)) || make -j10 || make -j10
           echo "status=success" >> ${GITHUB_OUTPUT}
 
 
